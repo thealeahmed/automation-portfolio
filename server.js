@@ -1,14 +1,12 @@
 const express = require('express');
 const path = require('path');
 const fs = require('fs');
+const { findProjectBySlug, getProjectsByCategory } = require('./lib/projects');
 
 const app = express();
 const PORT = Number(process.env.PORT) || 3000;
 const ROOT = __dirname;
 const DIST = path.join(ROOT, 'dist');
-const projectsPath = path.join(ROOT, 'data', 'projects.json');
-const projects = JSON.parse(fs.readFileSync(projectsPath, 'utf8'));
-
 app.disable('x-powered-by');
 app.use(express.json({ limit: '32kb' }));
 
@@ -17,16 +15,11 @@ app.get('/api/health', (req, res) => {
 });
 
 app.get('/api/projects', (req, res) => {
-  const category = typeof req.query.category === 'string'
-    ? req.query.category.trim().toLowerCase()
-    : '';
-  res.json(category
-    ? projects.filter((project) => project.category.toLowerCase().includes(category))
-    : projects);
+  res.json(getProjectsByCategory(req.query.category));
 });
 
 app.get('/api/projects/:slug', (req, res) => {
-  const project = projects.find((item) => item.slug === req.params.slug);
+  const project = findProjectBySlug(req.params.slug);
   if (!project) {
     return res.status(404).json({ error: 'Project not found' });
   }
