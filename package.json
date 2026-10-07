@@ -1,0 +1,31 @@
+{
+  "name": "ai-automation-portfolio",
+  "version": "2.0.0",
+  "private": true,
+  "description": "AI Automation & API Integration portfolio with a React frontend and Express API",
+  "engines": {
+    "node": ">=20"
+  },
+  "main": "server.js",
+  "scripts": {
+    "dev": "concurrently -k \"npm:dev:api\" \"npm:dev:web\"",
+    "dev:api": "node server.js",
+    "dev:web": "vite",
+    "build": "vite build",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "concurrently": "^9.1.2",
+    "vite": "^6.3.5"
+  },
+  "overrides": {
+    "shell-quote": "^1.12.0"
+  }
+}

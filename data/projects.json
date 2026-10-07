@@ -1,0 +1,376 @@
+[
+  {
+    "number": "01",
+    "slug": "coupler-io-multi-platform-integration",
+    "title": "Coupler.io Multi-Platform Integration",
+    "role": "API Integration & Automation Specialist",
+    "category": "api integration",
+    "tags": [
+      "API Integration",
+      "Coupler.io",
+      "Data Integration"
+    ],
+    "description": "A client needed several business platforms connected to Coupler.io so reporting data could move without manual transfers. I configured the integrations, credentials and data flows, tested the connections and resolved issues along the way, leaving the client with a more reliable reporting workflow.",
+    "workflow": "Multiple Platforms \u2192 Coupler.io \u2192 Reporting",
+    "image": "assets/generated/coupler-integration.png",
+    "skills": [
+      "API Integration",
+      "Coupler.io",
+      "Data Integration",
+      "Workflow Automation",
+      "Troubleshooting"
+    ]
+  },
+  {
+    "number": "02",
+    "slug": "travelgate-fastx-api-integration-and-hotel-amenities-mapping",
+    "title": "Travelgate FASTX API Integration & Hotel Amenities Mapping",
+    "role": "API Integration & Travel Data Specialist",
+    "category": "api integration",
+    "tags": [
+      "Travelgate FASTX API",
+      "Hotel Inventory APIs",
+      "Data Mapping"
+    ],
+    "description": "A hotel-booking client was receiving supplier inventory and amenities in inconsistent formats. I worked on the FASTX integration and mapping layer, transforming supplier responses into a standardized structure so hotel facilities could be handled consistently across the booking platform.",
+    "workflow": "Travelgate FASTX \u2192 Transform \u2192 Normalize \u2192 Booking Platform",
+    "image": "assets/generated/travelgate-fastx.png",
+    "skills": [
+      "Travelgate FASTX API",
+      "Hotel Inventory APIs",
+      "Data Mapping",
+      "JSON/XML",
+      "Data Normalization"
+    ]
+  },
+  {
+    "number": "03",
+    "slug": "vapi-ai-telephony-integration",
+    "title": "Vapi AI Telephony Integration",
+    "role": "AI Voice & API Integration Specialist",
+    "category": "voice ai",
+    "tags": [
+      "Vapi AI",
+      "Telephony APIs",
+      "n8n"
+    ],
+    "description": "A client already had a Vapi voice agent but needed a more flexible telephony setup. I connected the selected provider to the existing agent and integrated call events into the automation layer, creating a cleaner voice infrastructure for call handling and centralized event data.",
+    "workflow": "Telephony \u2192 Vapi Agent \u2192 Call Events \u2192 Automation",
+    "image": "assets/generated/vapi-telephony.png",
+    "skills": [
+      "Vapi AI",
+      "Telephony APIs",
+      "n8n",
+      "Voice Agents",
+      "Call Events"
+    ]
+  },
+  {
+    "number": "04",
+    "slug": "zoho-inventory-api-integration",
+    "title": "Zoho Inventory API Integration",
+    "role": "API Integration Developer",
+    "category": "api integration",
+    "tags": [
+      "Zoho Inventory API",
+      "REST APIs",
+      "Data Synchronization"
+    ],
+    "description": "The client needed Zoho Inventory connected with their application so inventory information could move reliably between systems. I implemented and tested the API flow, handled the requests and responses, and resolved integration issues affecting the data exchange.",
+    "workflow": "Application \u2192 Zoho Inventory API \u2192 Data Sync",
+    "image": "assets/generated/zoho-inventory.png",
+    "skills": [
+      "Zoho Inventory API",
+      "REST APIs",
+      "Data Synchronization",
+      "API Troubleshooting",
+      "Backend Integration"
+    ]
+  },
+  {
+    "number": "05",
+    "slug": "api-endpoint-troubleshooting-and-optimization",
+    "title": "API Endpoint Troubleshooting & Optimization",
+    "role": "API Integration & Backend Developer",
+    "category": "api integration",
+    "tags": [
+      "REST APIs",
+      "API Debugging",
+      "Backend Integration"
+    ],
+    "description": "A client came to me with API endpoints causing problems between the frontend and backend. I traced the requests and responses, fixed the endpoint issues, and tested the communication flow to restore reliable application-to-API communication.",
+    "workflow": "Frontend \u2192 API Endpoints \u2192 Backend",
+    "image": "assets/generated/api-endpoint-debugging.png",
+    "skills": [
+      "REST APIs",
+      "API Debugging",
+      "Backend Integration",
+      "Endpoint Optimization",
+      "Troubleshooting"
+    ]
+  },
+  {
+    "number": "06",
+    "slug": "ai-lead-generation-and-research-automation",
+    "title": "AI Lead Generation & Research Automation",
+    "role": "AI Automation & n8n Integration Specialist",
+    "category": "lead automation",
+    "tags": [
+      "n8n Automation",
+      "AI Lead Generation",
+      "API Integration"
+    ],
+    "description": "A client was spending too much time manually finding and researching prospects. I built an n8n workflow that collected lead data, enriched and qualified prospects, used AI for company research, and organized the results for outreach. The repetitive research process became a single automated pipeline.",
+    "workflow": "Lead Source \u2192 Enrichment \u2192 AI Research \u2192 Qualification \u2192 Outreach",
+    "image": "assets/banners/06_ai_lead_generation_research.png",
+    "skills": [
+      "n8n Automation",
+      "AI Lead Generation",
+      "API Integration",
+      "Data Enrichment",
+      "OpenAI"
+    ]
+  },
+  {
+    "number": "07",
+    "slug": "ai-voice-agent-and-appointment-automation",
+    "title": "AI Voice Agent & Appointment Automation",
+    "role": "AI Voice & n8n Automation Specialist",
+    "category": "voice ai",
+    "tags": [
+      "n8n",
+      "Vapi AI",
+      "OpenAI"
+    ],
+    "description": "A client was losing opportunities because calls were missed and appointments were still handled manually. I built a voice workflow that handled calls, understood requests, qualified leads, checked availability, booked appointments and updated the CRM, creating a reliable lead-to-appointment process.",
+    "workflow": "Call \u2192 Vapi \u2192 Qualification \u2192 Calendar \u2192 CRM",
+    "image": "assets/banners/07_ai_voice_agent_appointment.png",
+    "skills": [
+      "n8n",
+      "Vapi AI",
+      "OpenAI",
+      "Google Calendar",
+      "CRM Automation"
+    ]
+  },
+  {
+    "number": "08",
+    "slug": "website-scraping-and-ai-content-pipeline",
+    "title": "Website Scraping & AI Content Pipeline",
+    "role": "n8n Automation & AI Integration Specialist",
+    "category": "data automation",
+    "tags": [
+      "n8n",
+      "Web Scraping / Apify",
+      "OpenAI"
+    ],
+    "description": "A client had a time-consuming process for collecting website information and turning it into content. I built an n8n pipeline that scraped pages, cleaned and structured the data, used AI to generate content and passed the finished output to the required platform.",
+    "workflow": "Web Scrape \u2192 Clean \u2192 AI Content \u2192 Publish",
+    "image": "assets/banners/08_website_scraping_ai_content.png",
+    "skills": [
+      "n8n",
+      "Web Scraping / Apify",
+      "OpenAI",
+      "API Integration",
+      "AI Content"
+    ]
+  },
+  {
+    "number": "09",
+    "slug": "ai-social-media-content-and-publishing-automation",
+    "title": "AI Social Media Content & Publishing Automation",
+    "role": "AI Automation & n8n Integration Specialist",
+    "category": "ai automation",
+    "tags": [
+      "n8n",
+      "OpenAI",
+      "Social Media APIs"
+    ],
+    "description": "A client was spending too much time managing content across social platforms. I built an n8n workflow that took content ideas, used AI to research and create posts, scheduled and published them, and recorded performance data so the publishing process could run consistently with much less manual work.",
+    "workflow": "Idea \u2192 AI Research \u2192 Content \u2192 Schedule \u2192 Publish \u2192 Track",
+    "image": "assets/banners/09_ai_social_media_publishing.png",
+    "skills": [
+      "n8n",
+      "OpenAI",
+      "Social Media APIs",
+      "Content Automation",
+      "Workflow Automation"
+    ]
+  },
+  {
+    "number": "10",
+    "slug": "ai-email-outreach-and-follow-up-automation",
+    "title": "AI Email Outreach & Follow-Up Automation",
+    "role": "AI Automation & n8n Integration Specialist",
+    "category": "lead automation",
+    "tags": [
+      "n8n",
+      "AI Email Personalization",
+      "Lead Enrichment"
+    ],
+    "description": "A client\u2019s sales team was spending too much time sending emails and manually following up. I built an n8n workflow that enriched leads, researched prospects with AI, personalized messages, sent multi-step sequences, tracked responses and updated the CRM automatically.",
+    "workflow": "Lead \u2192 Enrichment \u2192 AI Research \u2192 Email \u2192 Follow-up \u2192 CRM",
+    "image": "assets/banners/10_ai_email_outreach.png",
+    "skills": [
+      "n8n",
+      "AI Email Personalization",
+      "Lead Enrichment",
+      "CRM Integration",
+      "Email APIs"
+    ]
+  },
+  {
+    "number": "11",
+    "slug": "real-estate-lead-and-crm-automation",
+    "title": "Real Estate Lead & CRM Automation",
+    "role": "n8n Automation & CRM Integration Specialist",
+    "category": "lead automation",
+    "tags": [
+      "n8n",
+      "CRM Integration",
+      "Lead Management"
+    ],
+    "description": "A real estate client was receiving leads from different sources and manually entering, qualifying and following up with each one. I built an n8n workflow that captured leads, enriched them, scored them with AI, routed them into the right pipeline and triggered follow-ups automatically.",
+    "workflow": "Lead Source \u2192 Enrichment \u2192 AI Qualification \u2192 CRM \u2192 Follow-up",
+    "image": "assets/banners/11_real_estate_lead_crm.png",
+    "skills": [
+      "n8n",
+      "CRM Integration",
+      "Lead Management",
+      "AI Qualification",
+      "API Integration"
+    ]
+  },
+  {
+    "number": "12",
+    "slug": "ai-customer-support-and-knowledge-base-rag",
+    "title": "AI Customer Support & Knowledge Base/RAG",
+    "role": "AI Automation & n8n Integration Specialist",
+    "category": "ai automation",
+    "tags": [
+      "n8n",
+      "RAG",
+      "Vector Databases"
+    ],
+    "description": "A client was dealing with repetitive customer questions and scattered support information. I built an n8n-based RAG workflow that classified incoming requests, retrieved relevant knowledge, generated responses and routed low-confidence cases to a human while logging the interactions.",
+    "workflow": "Message \u2192 Intent \u2192 RAG Search \u2192 AI Response \u2192 Confidence \u2192 Handoff",
+    "image": "assets/banners/12_ai_customer_support_rag.png",
+    "skills": [
+      "n8n",
+      "RAG",
+      "Vector Databases",
+      "OpenAI",
+      "AI Customer Support"
+    ]
+  },
+  {
+    "number": "13",
+    "slug": "ai-voice-gohighlevel-wavv-lead-management",
+    "title": "AI Voice + GoHighLevel/WAVV Lead Management",
+    "role": "AI Voice & n8n Automation Specialist",
+    "category": "voice ai",
+    "tags": [
+      "n8n",
+      "Vapi AI",
+      "GoHighLevel"
+    ],
+    "description": "A client was struggling with missed calls, slow follow-ups and manual GoHighLevel updates. I connected an AI voice agent with n8n, GoHighLevel and WAVV to capture conversations, transcribe and qualify leads, update the CRM and trigger follow-ups automatically.",
+    "workflow": "Call \u2192 AI Voice \u2192 Qualification \u2192 GoHighLevel \u2192 WAVV \u2192 Follow-up",
+    "image": "assets/banners/13_ai_voice_gohighlevel_wavv.png",
+    "skills": [
+      "n8n",
+      "Vapi AI",
+      "GoHighLevel",
+      "WAVV API",
+      "CRM Automation"
+    ]
+  },
+  {
+    "number": "14",
+    "slug": "ai-virtual-assistant-automation",
+    "title": "AI Virtual Assistant Automation",
+    "role": "AI Automation & n8n Integration Specialist",
+    "category": "ai automation",
+    "tags": [
+      "n8n",
+      "OpenAI",
+      "AI Assistants"
+    ],
+    "description": "A client was spending hours handling repetitive requests, creating tasks, updating records and managing reminders across different tools. I built an AI virtual assistant using n8n and OpenAI that interpreted requests, looked up information, executed actions and kept connected systems updated.",
+    "workflow": "Message \u2192 Intent \u2192 AI Assistant \u2192 Data \u2192 Task \u2192 Integrations \u2192 Reporting",
+    "image": "assets/banners/14_ai_virtual_assistant.png",
+    "skills": [
+      "n8n",
+      "OpenAI",
+      "AI Assistants",
+      "API Integrations",
+      "Task Automation"
+    ]
+  },
+  {
+    "number": "15",
+    "slug": "ai-offer-generator-automation",
+    "title": "AI Offer Generator Automation",
+    "role": "AI Automation & n8n Integration Specialist",
+    "category": "ai automation",
+    "tags": [
+      "n8n",
+      "OpenAI",
+      "AI Content Generation"
+    ],
+    "description": "A client was spending hours researching prospects and preparing tailored proposals. I built an n8n workflow that captured requirements, enriched the data, used AI to develop the offer, pulled relevant pricing and resources, generated the proposal, sent it and updated the CRM automatically.",
+    "workflow": "Client Input \u2192 Enrichment \u2192 AI Strategy \u2192 Offer \u2192 Send \u2192 CRM \u2192 Tracking",
+    "image": "assets/banners/15_ai_offer_generator.png",
+    "skills": [
+      "n8n",
+      "OpenAI",
+      "AI Content Generation",
+      "CRM Integration",
+      "Document Automation"
+    ]
+  },
+  {
+    "number": "16",
+    "slug": "financial-news-intelligence-pipeline",
+    "title": "Financial News Intelligence Pipeline",
+    "role": "n8n Automation & AI Integration Specialist",
+    "category": "data automation",
+    "tags": [
+      "n8n",
+      "Financial Data APIs",
+      "OpenAI"
+    ],
+    "description": "A client needed a faster way to track financial news from multiple sources. I built an n8n pipeline that collected articles through feeds and APIs, cleaned and processed the content, used AI to summarize sentiment and impact, stored structured intelligence and distributed alerts and reports.",
+    "workflow": "News Sources \u2192 Extract \u2192 Clean \u2192 AI Analysis \u2192 Database \u2192 Alerts \u2192 Reports",
+    "image": "assets/generated/financial-news-intelligence.png",
+    "skills": [
+      "n8n",
+      "Financial Data APIs",
+      "OpenAI",
+      "Data Processing",
+      "Automated Reporting"
+    ]
+  },
+  {
+    "number": "17",
+    "slug": "ai-email-reply-automation",
+    "title": "AI Email Reply Automation",
+    "role": "n8n Automation & AI Integration Specialist",
+    "category": "ai automation",
+    "tags": [
+      "n8n",
+      "Gmail API",
+      "OpenAI"
+    ],
+    "description": "A client was spending too much time replying to repetitive emails. I built an n8n workflow that monitored incoming messages, filtered and categorized them, extracted relevant details and used AI to draft context-aware replies. High-confidence messages could be automated while complex emails went to human review.",
+    "workflow": "Email \u2192 Filter \u2192 Extract \u2192 AI Reply \u2192 Confidence \u2192 Auto Reply / Review",
+    "image": "assets/banners/17_ai_email_reply.png",
+    "skills": [
+      "n8n",
+      "Gmail API",
+      "OpenAI",
+      "AI Email Processing",
+      "Human-in-the-Loop"
+    ]
+  }
+]
